@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesLibrary", "ShapesLibrary\ShapesLibrary.csproj", "{9703E391-28F4-4D1E-AA15-D6D0E21C57BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTestbench", "ConsoleTestbench\ConsoleTestbench.csproj", "{099D6F07-005D-4326-B2DC-AF87CB7CCADE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{BB51934B-2327-43D4-83AE-796CB85D1F17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9703E391-28F4-4D1E-AA15-D6D0E21C57BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9703E391-28F4-4D1E-AA15-D6D0E21C57BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9703E391-28F4-4D1E-AA15-D6D0E21C57BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9703E391-28F4-4D1E-AA15-D6D0E21C57BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{099D6F07-005D-4326-B2DC-AF87CB7CCADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{099D6F07-005D-4326-B2DC-AF87CB7CCADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{099D6F07-005D-4326-B2DC-AF87CB7CCADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{099D6F07-005D-4326-B2DC-AF87CB7CCADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB51934B-2327-43D4-83AE-796CB85D1F17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB51934B-2327-43D4-83AE-796CB85D1F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB51934B-2327-43D4-83AE-796CB85D1F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB51934B-2327-43D4-83AE-796CB85D1F17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

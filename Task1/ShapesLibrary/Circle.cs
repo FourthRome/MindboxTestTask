@@ -4,16 +4,12 @@ namespace ShapesLibrary;
 
 public class Circle : IShape
 {
-    private double _radius;
     public double Radius
     {
         get => _radius;
         set
         {
-            if (value >= 0)
-            {
-                _radius = value;
-            }
+            if (value >= 0) _radius = value;
             else
             {
                 throw new ArgumentOutOfRangeException(
@@ -21,11 +17,9 @@ public class Circle : IShape
             }
         }
     }
+    public double Area => Math.PI * Radius * Radius;
 
     public Circle() {  }
     
-    public double CalculateSquare()
-    {
-        return Math.PI * Radius * Radius;
-    }
+    private double _radius;
 }

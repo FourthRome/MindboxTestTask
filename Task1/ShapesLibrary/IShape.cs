@@ -2,5 +2,5 @@
 
 public interface IShape 
 {
-    double CalculateSquare();
+    double Area { get; }
 }

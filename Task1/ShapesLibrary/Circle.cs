@@ -19,7 +19,9 @@ public class Circle : IShape
     }
     public double Area => Math.PI * Radius * Radius;
 
-    public Circle() {  }
+    public Circle() {  }  // allows to use object initializer
+
+    public Circle(double radius) => Radius = radius;
     
     private double _radius;
 }

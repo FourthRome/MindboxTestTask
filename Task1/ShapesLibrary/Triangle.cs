@@ -27,6 +27,7 @@ public class Triangle : TriangleBase
         _area = CalculateArea(sideA, sideB, sideC);
     }
 
+    // Private methods and fields
     private static void ValidateSides(double sideA, double sideB, double sideC)
     {
         // Check that sides are non-negative

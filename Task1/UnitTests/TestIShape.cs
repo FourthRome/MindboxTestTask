@@ -10,7 +10,7 @@ public class TestIShape
 {
     /// <remarks>
     /// This one could and should be written more eloquently,
-    /// I just wanted to flex my familiriaty with AAA or something, idk.
+    /// I just wanted to flex my familiarity with AAA or something, idk.
     /// </remarks>
     [Fact]
     public void TestBasic()
